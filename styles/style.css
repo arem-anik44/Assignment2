@@ -14,7 +14,9 @@ nav,.hero{
     margin-bottom: 0px;
 }
 
-
+section{
+    padding: 80px 0;
+}
 
 /* shared-style */
 
@@ -23,24 +25,27 @@ nav,.hero{
 }
 
 .gredient-text{
-    
-    
-    color: linear-gradient(to-right, #F7E93F, #FB09B4 ,#9100F8) ;
-    
+    background: linear-gradient(to right, #F7E93F, #FB09B4 ,#9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 .gredient-bg-color{
     
 }
 
 .btn{
-    padding: 13px 16px;
-    border-radius: 20px;
+    padding: 13px 20px;
+    border-radius: 25px;
     font-weight: 600;
-    background-image: linear-gradient(to-right, #F7E93F, #FB09B4 ,#9100F8);
-
+    border: none;
+    color: #000;
+    background: linear-gradient(to right, #F7E93F, #FB09B4 ,#9100F8);
     cursor: pointer;
-    
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
 
 hr{
@@ -96,11 +101,15 @@ nav ul a{
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    background: url(../assets/hero-bg.png);
+
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    
-    background-size: 1600px auto;
+
+    min-height: 600px;
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 .icon {
@@ -108,7 +117,7 @@ nav ul a{
   place-items: center;      
   width: 350px;
   height: 350px;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 0px;
 }
 
@@ -145,9 +154,6 @@ nav ul a{
     color: #ffffff;
 }
 
-.hero .btn{
-    margin-bottom: 100px;
-}
 
 #about{
     margin:0 auto;
@@ -207,8 +213,7 @@ nav ul a{
 #feature h1{
     font-size: 48px;
     color: #ffffff;
-    padding-top: 120px;
-    padding-bottom: 40px;
+    
 }
 
 .paq{
@@ -306,12 +311,16 @@ nav ul a{
 .card-all{
     
     max-width: 380px;
-    box-shadow: 5px 5px 5px 1;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    overflow: hidden;
     
 }
 
 .card-all iframe{
-    width: 380px;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px 10px 0 0;
 }
 
 .iframe-contant{
@@ -360,7 +369,7 @@ nav ul a{
 }
 
 footer .content{
-    background: url(../assets/footer-bg.png);
+    background: url("../assets/footer-bg.png");
     background-repeat: no-repeat;
 
     max-width: 1600px;
