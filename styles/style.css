@@ -197,3 +197,78 @@ nav ul a{
 }
 
 
+#grid-section{
+    text-align: center;
+    background-color: #230E3D;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#grid-section h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.paq{
+    grid-area: paq;
+}
+
+.mf{
+    grid-area: mf;
+}
+
+.gc{
+    grid-area: gc;
+}
+
+.ei{
+    grid-area: ei;
+}
+.rr{
+    grid-area: rr;
+}
+
+
+
+.grids-all section{
+    
+    background-color: #351165 ;
+    border-radius: 20px;
+    padding: 20px 4cap;
+    
+    
+}
+
+.grids-all h3{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.grids-all p{
+    color: #ffffff75;
+    font-size: 16px;
+}
+
+.grids-all .paq{
+    padding-top: 120px;
+}
+
+
+
+.grids-all{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    
+    text-align: left;
+    justify-content: center;
+    vertical-align: center;
+    grid-template-areas:
+    "paq mf mf" 
+    "paq gc gc"
+    "ei ei rr";
+}
+
+
