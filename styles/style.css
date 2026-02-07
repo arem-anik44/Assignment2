@@ -3,9 +3,15 @@
   font-family: "Inter";
   font-optical-sizing: auto;
 }
+body{
+    margin: 0 auto;
+}
 
-body*>{
+nav,.hero{
     margin : 0 auto;
+}
+.hero{
+    margin-bottom: 0px;
 }
 
 
@@ -40,6 +46,13 @@ body*>{
 hr{
     margin: 0 auto;
     padding: 0 0;
+}
+
+.hero *>:last-child{
+    margin-bottom: 0px;
+}
+#about *>:first-child{
+    margin-top: 0px;
 }
 
 
@@ -119,11 +132,11 @@ nav ul a{
 }
 
 .hero-about{
-    margin:40px 0 100px;
+    
     text-align: center;
 }
 .hero-about h1{
-    font-size: 60px;
+    font-size: 60px; 
     color: #ffffff;
     margin-bottom: 0;
 }
@@ -131,4 +144,56 @@ nav ul a{
     font-size: 16px;
     color: #ffffff;
 }
+
+.hero .btn{
+    margin-bottom: 100px;
+}
+
+#about{
+    margin:0 auto;
+    max-width: 1600px;
+    background-color: #1A0B2E;
+
+    
+    
+}
+
+#about .about-about{
+    text-align: center;
+    
+}
+
+#about .about-about h1{
+    font-size: 48px;
+    padding-top: 80px;
+    color: #ffffff;
+
+}
+
+#about .about-about p{
+    color: #ffffff;
+    line-height: 20px;
+}
+
+#card-section{
+    
+    color: #ffffff;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+.card{
+    padding: 5px 10px ;
+    margin-bottom: 80px;
+}
+.card h1{
+    color: #00ff88;
+    font-size: 48px;
+}
+
 
