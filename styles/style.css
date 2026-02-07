@@ -248,7 +248,8 @@ nav ul a{
 }
 
 .grids-all p,
-.card-all p{
+.card-all p,
+.about-host p{
     color: #ffffff75;
     font-size: 16px;
 }
@@ -288,7 +289,8 @@ nav ul a{
     gap: 30px;
     text-align: left;
     margin: 0 auto;
-    padding-bottom: 60px;
+    border-radius: 10px;
+    
 }
 
 .timer{
@@ -315,4 +317,85 @@ nav ul a{
 .iframe-contant{
     padding-left: 20px;
     background-color: #250D44;
+}
+
+.host-section{
+    background-color:#35116589;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.host-section{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-host{
+    text-align: left;
+}
+
+.about-host h4{
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.social-img{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-img img{
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+footer .content{
+    background: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.content h1{
+    font-size: 56px;
+    color: white;
+    padding-top: 100px;
+}
+
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    vertical-align: center;
+    
+}
+
+.single-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.single-img p{
+    color: #ffffff75;
+}
+
+.para{
+    color: #ffffff75;
+    padding-bottom: 60px;
+    
 }
