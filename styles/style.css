@@ -96,7 +96,7 @@ nav ul a{
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    background: url(/assets/hero-bg.png);
+    background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     
     background-size: 1600px auto;
@@ -360,7 +360,7 @@ nav ul a{
 }
 
 footer .content{
-    background: url(/assets/footer-bg.png);
+    background: url(../assets/footer-bg.png);
     background-repeat: no-repeat;
 
     max-width: 1600px;
