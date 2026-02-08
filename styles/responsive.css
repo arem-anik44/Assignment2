@@ -1,0 +1,66 @@
+@media screen and (max-width : 576px) {
+    main section {
+    padding: 40px 0;
+}
+
+    .grids-all{
+        width: 90%;
+        
+        grid-template-areas:
+        "paq"
+        "mf"
+        "gc"
+        "ei"
+        "rr";
+    }
+    .grids-all .paq{
+        padding-top: 20px;
+    }
+
+    .cards-all {
+        flex-direction: column;
+        
+    }
+
+    .card-all{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .host-section {
+    flex-direction: column;
+    
+    }
+    .about-host{
+    text-align: center;
+    
+    }
+    .social-img {
+    justify-content: center;
+    }
+    #about .about-about h1 {
+    padding-top: 40px;
+    }
+    #about .about-about p{
+    width: 90%;
+}
+    #card-section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+    footer .content{
+    
+    background-size: cover;
+    height: auto;
+    
+}
+    .navlinks{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+}

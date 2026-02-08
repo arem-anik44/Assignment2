@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body class="inter-font body-margin">
-    <header>
+    <header >
 
-        <nav>
-             <div class="logo">
+        <nav class="navlinks">
+            <div class="logo">
                <h2 style="font-size: 40px;">Tech<span class="gredient-text">Wave</span></h2>
-            </div>
+            </div> 
 
             <ul>
                 <li><a href="">About</a></li>
@@ -28,11 +29,22 @@
             </div>
             
         </nav>
-        <hr>
+        <nav class="hamburger">
+            <div class="logo">
+               <h2 style="font-size: 40px;">Tech<span class="gredient-text">Wave</span></h2>
+            </div>
 
+            <div>
+                <img src="./assets/hamburger-menu.png" alt="">
+            </div>
+        </nav>
+        <hr>
+        
         <section class="hero">
             
+            
             <div class="icon">
+                
                 <img src="./assets/hero-circle.png" alt="" class="background-img">
                 <img src="./assets/microphone.png" alt="" class="overlay-img">
             </div>
@@ -48,7 +60,7 @@
     </header>
  
     <main>
-        <section id="about">
+        <section id="about" >
             <div class="about-about">
                 <h1>About The Podcast</h1>
                 <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
@@ -57,7 +69,7 @@
                 </p>
 
                 <br>
-                <br>
+                
                 <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
             </div>
 
@@ -82,7 +94,7 @@
         </section>
 
 
-        <section id="grid-section">
+        <section id="grid-section" >
             <h1>Why Choose TechWave</h1>
 
             <div class="grids-all">
@@ -118,7 +130,7 @@
             </div>
         </section>
 
-        <section id="feature">
+        <section id="feature" >
             <h1>Featured Episodes</h1>
             <div class="cards-all">
                 <div class="card-all">
@@ -179,7 +191,7 @@
                 
             </div>
 
-            <h1>Meet The Host</h1>
+            <h1 id="mth">Meet The Host</h1>
 
             <div class="host-section">
                 <div class="pic">
@@ -200,7 +212,7 @@
     </main>
 
 
-    <footer>
+    <footer >
         <div class="content">
             <h1>Tech<span class="gredient-text">Wave</span></h1>
             <div class="images">

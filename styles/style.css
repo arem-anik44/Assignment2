@@ -14,7 +14,7 @@ nav,.hero{
     margin-bottom: 0px;
 }
 
-section{
+main section{
     padding: 80px 0;
 }
 
@@ -184,12 +184,15 @@ nav ul a{
 #card-section{
     
     color: #ffffff;
-    display: flex;
-    gap: 80px;
+   
     justify-content: center;
     margin-top: 80px;
     text-align: center;
     line-height: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
     
 }
 
@@ -342,6 +345,7 @@ nav ul a{
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .about-host{
@@ -368,6 +372,11 @@ nav ul a{
     border-radius: 12px;
 }
 
+footer{
+    margin-top: 0;
+    padding: 0;
+}
+
 footer .content{
     background: url("../assets/footer-bg.png");
     background-repeat: no-repeat;
@@ -382,6 +391,7 @@ footer .content{
     font-size: 56px;
     color: white;
     padding-top: 100px;
+    margin-top: 0px;
 }
 
 
@@ -406,5 +416,20 @@ footer .content{
 .para{
     color: #ffffff75;
     padding-bottom: 60px;
+    margin-bottom: 0;
     
 }
+
+#mth{
+    padding-top: 80px;
+}
+
+
+.hide {
+    display: none !important;
+}
+
+.hamburger{
+    display: none;
+}
+
